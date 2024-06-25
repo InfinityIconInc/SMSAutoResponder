@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@drawable/b"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/txtSID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:text="SMS Autoresponder"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:textColor="#ffffff"/>
+
+    <ToggleButton
+        android:id="@+id/tbtnStartResponder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textOn="SMS Responder Started"
+        android:textOff="SMS Responder OFF"
+        android:text="ToggleButton" />
+    
+     
+    
+   
+    <RadioGroup
+        android:id="@+id/rgOptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+    <RadioButton
+        android:id="@+id/rbRE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Respond Everyone" />
+    <RadioButton
+        android:id="@+id/rbRRL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Respond Responder List" />
+    <RadioButton
+        android:id="@+id/rbRC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Respond Contacts Only" />
+    
+    
+    </RadioGroup>
+ <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_weight="0.01"
+        android:orientation="horizontal" >
+
+    <ImageButton
+        android:id="@+id/btnnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="next"
+        android:background="@drawable/arrownext" />
+
+     </LinearLayout>
+    
+   
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_weight="0.001"
+        android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/taketour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:background="@drawable/pluss" />
+    
+     </LinearLayout>
+    
+
+</LinearLayout>

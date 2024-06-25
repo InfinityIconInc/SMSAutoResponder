@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:background="@drawable/b"
+     >
+
+    <TextView
+        android:id="@+id/txtST"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:text="Add New Situation"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/txtSM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Situation Title"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/txtname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvResponse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Situation Message"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/txtmsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtname"
+        android:layout_toRightOf="@+id/txtSituationName"
+        android:ems="10"
+        android:lines="6" >
+    </EditText>
+
+    <Button
+        android:id="@+id/btnSaveSituation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtmsg"
+        android:text="Save Situation"
+          android:background="@drawable/brownbtnn" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+    </EditText>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Database1</string>
+      <string name="prompt">Choose a country</string>
+    
+    <string name="menu_settings">Settings</string>
+    <string-array name="management">
+      
+    
+ </string-array>
+</resources>

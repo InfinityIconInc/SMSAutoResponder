@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/b"
+    >
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight=".10"
+        android:text="Loading Contacts"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+     
+         <Button
+        android:id="@+id/btnAddNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".5"
+        android:text="Add Number" 
+         android:background="@drawable/brownbtnn"/>
+         
+          <Button
+        android:id="@+id/btnResponderList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".5"
+        android:text="Responder List" 
+        android:background="@drawable/brownbtnn"
+        />
+          
+       </LinearLayout>
+
+        <ProgressBar
+        android:id="@+id/pbProgress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".10" />
+
+    <ListView
+        android:id="@+id/lstContacts"
+        android:layout_width="match_parent"
+        android:layout_height="282dp"
+        >
+
+    </ListView>
+
+    <Button
+        android:id="@+id/btnAddSituation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@drawable/brownbtnn"
+        android:layout_weight=".10"
+        android:text="Back" />
+
+   
+
+</LinearLayout>

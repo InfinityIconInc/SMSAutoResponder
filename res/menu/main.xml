@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/mnuManualContact" android:title="Add Manual Contact"></item>
+    <item android:id="@+id/mnuAddSituation" android:title="Add Situation"></item>
+    <item android:id="@+id/mnuSelectContacts" android:title="Add Contacts from Address Book"></item>
+    <item android:id="@+id/mnuResponderList" android:title="Show Responder List"></item>
+</menu>
